@@ -1,0 +1,30 @@
+// Vars
+// Colors
+
+$white: #ffffff;
+$black: #000000;
+$grey: #5b5b5b;
+
+// Global Styles
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: $grey;
+}
+
+// Resume Layout
+
+.resume {
+	width: 814px;
+	margin: auto;
+}
+
+[id*='page-'] {
+	width: 100%;
+	height: 1055px;
+	border-bottom: 1px dashed $black;
+	background-color: $white;
+}
