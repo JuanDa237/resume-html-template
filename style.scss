@@ -1,0 +1,211 @@
+// Google Fonts Import
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+// Vars
+// Colors
+
+$white: #ffffff;
+$black: #000000;
+$grey-100: rgba(48, 48, 48, 0.15);
+$grey-200: #d0d0d0;
+$grey-500: #5b5b5b;
+
+// Global Styles
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+}
+
+body {
+	background: $grey-500;
+}
+
+// Font Styles
+
+.bold {
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.semi-bold {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+p {
+	font-size: 12.5px;
+	line-height: 17px;
+	text-align: justify;
+	margin-top: 8px;
+}
+
+ul,
+li {
+	font-size: 12.5px;
+	line-height: 17px;
+	text-align: justify;
+}
+
+a {
+	color: $black;
+}
+
+// Resume Layout
+
+.resume {
+	width: 814px;
+	margin: auto;
+}
+
+[id*='page-'] {
+	width: 100%;
+	height: 1055px;
+	border-bottom: 1px dashed $black;
+	display: flex;
+}
+
+.left {
+	width: 655px;
+	background: $white;
+	padding: 30px;
+}
+
+.right {
+	width: 160px;
+	min-width: 160px;
+	max-width: 160px;
+	background: $grey-200;
+	padding: 25px;
+}
+
+// Text Layouts
+
+.section {
+	h1 {
+		font-size: 12px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	padding-bottom: 15px;
+	margin-bottom: 16px;
+	border-bottom: 2px solid $grey-100;
+	&.last {
+		padding-bottom: 0;
+		margin-bottom: 0;
+		border-bottom: none;
+	}
+}
+
+.section-right {
+	margin-bottom: 25px;
+	h1 {
+		font-size: 12px;
+		font-weight: 400;
+		text-transform: uppercase;
+		padding-bottom: 8px;
+		margin-bottom: 16px;
+		border-bottom: 2px solid $grey-100;
+	}
+}
+
+.info {
+	margin-bottom: 16px;
+	h2 {
+		font-size: 11.5px;
+		margin-bottom: 5px;
+		text-transform: capitalize;
+	}
+	p {
+		margin: 0;
+	}
+}
+
+// Page-1 Left
+
+.header {
+	h1 {
+		font-size: 16px;
+		font-weight: 800;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+	}
+	h2 {
+		font-size: 11.5px;
+	}
+}
+
+.quote-container {
+	margin-top: 16px;
+	display: flex;
+	i {
+		width: 15%;
+		font-size: 35px;
+		color: $grey-200;
+		margin: auto;
+		text-align: right;
+	}
+	p {
+		margin: auto;
+		padding-left: 10px;
+		width: 85%;
+	}
+}
+
+.pl-50 {
+	padding-left: 50px;
+}
+
+// Timelines
+
+.timeline-section {
+	padding-bottom: 0;
+}
+
+.timeline {
+	margin-top: 16px;
+	margin-top: 16px;
+}
+
+.timeline-row {
+	display: flex;
+}
+
+.col-header {
+	width: 30%;
+	padding-right: 16px;
+	padding-bottom: 16px;
+	border-right: 1px solid $grey-100;
+	position: relative;
+	h2 {
+		font-style: italic;
+		font-weight: 400;
+		font-size: 12.5px;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: -5.5px;
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background-color: $grey-200;
+		border: 2px solid $grey-100;
+	}
+}
+
+.col-line {
+	position: relative;
+	width: 60%;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	h2 {
+		font-size: 12.5px;
+	}
+	h3 {
+		font-size: 12.5px;
+		font-weight: 100;
+	}
+}
