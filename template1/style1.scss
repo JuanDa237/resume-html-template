@@ -49,9 +49,8 @@ h6 {
 
 p {
 	font-size: 12.5px;
-	line-height: 17px;
+	line-height: 1.5;
 	text-align: justify;
-	margin-top: 8px;
 }
 
 li {
@@ -111,6 +110,9 @@ a {
 		@extend .fw-normal;
 		text-transform: uppercase;
 	}
+	p {
+		margin-top: 8px;
+	}
 	&.last {
 		padding-bottom: 0;
 		margin-bottom: 0;
@@ -149,7 +151,8 @@ a {
 		text-transform: uppercase;
 		margin-bottom: 5px;
 	}
-	h2 {
+	p {
+		margin-top: 8px;
 	}
 }
 
