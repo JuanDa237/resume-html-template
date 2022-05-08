@@ -15,7 +15,7 @@ Change at the `template.html` the lang attribute and it will be automatically tr
 
 You have to press `ctrl + p` to print in Google Chrome, then put this settings:
 
-Destination: Save as pdf
-Paper size: Letter
-Margins: none
-Options: (Check) Background graphics.
+-   Destination: Save as pdf
+-   Paper size: Letter
+-   Margins: none
+-   Options: (Check) Background graphics.
