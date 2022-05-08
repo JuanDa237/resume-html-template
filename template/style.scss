@@ -9,7 +9,6 @@ $grey: #5b5b5b;
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 body {
@@ -28,10 +27,4 @@ body {
 	height: 1055px;
 	border-bottom: 1px dashed $black;
 	background-color: $white;
-}
-
-// Header
-#header {
-	text-align: center;
-	padding: 30px;
 }
