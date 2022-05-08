@@ -21,11 +21,11 @@ const es = {
 		}
 	},
 	education: {
-		title: 'educacion',
+		title: 'Educación',
 		info: {
 			1: {
 				title: 'Desarrollador Web',
-				subtitle: 'Mision TIC',
+				subtitle: 'Misión TIC',
 				description: 'Más información acerca de este grado en',
 				place: 'Medellín, Colombia',
 				date: 'May 2021 - Dic 2021'
@@ -59,7 +59,7 @@ const es = {
 		}
 	},
 	contact: {
-		title: 'Informacion de contacto',
+		title: 'Información de contacto',
 		info: {
 			1: {
 				title: 'Correo electrónico',

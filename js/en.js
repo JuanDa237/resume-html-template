@@ -25,7 +25,7 @@ const en = {
 		info: {
 			1: {
 				title: 'Web Development',
-				subtitle: 'Mision TIC',
+				subtitle: 'Misión TIC',
 				description: 'More information about this grade at',
 				place: 'Medellín, Colombia',
 				date: 'May 2021 - Dec 2021'
