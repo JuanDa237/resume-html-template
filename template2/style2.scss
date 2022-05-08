@@ -3,7 +3,9 @@
 
 $white: #ffffff;
 $black: #000000;
-$grey: #5b5b5b;
+$grey-100: rgba(48, 48, 48, 0.15);
+$grey-200: #d0d0d0;
+$grey-500: #5b5b5b;
 
 // Global Styles
 * {
@@ -13,7 +15,17 @@ $grey: #5b5b5b;
 }
 
 body {
-	background: $grey;
+	background: $grey-500;
+}
+
+// Font Styles
+
+.muted {
+	color: $grey-500;
+}
+
+a {
+	color: $black;
 }
 
 // Resume Layout
@@ -30,8 +42,115 @@ body {
 	background-color: $white;
 }
 
+.container {
+	width: 100%;
+	display: flex;
+	.right {
+		flex-basis: 60%;
+		padding: 0px 30px;
+	}
+	.left {
+		padding: 0px 40px;
+		flex-basis: 40%;
+	}
+}
+
 // Header
 #header {
 	text-align: center;
 	padding: 30px;
+	h1 {
+		font-size: 21px;
+	}
+	h2 {
+		font-size: 12.3px;
+	}
+	p {
+		width: 60%;
+		margin: 10px auto;
+		font-size: 13px;
+		line-height: 2;
+	}
+}
+
+// Text Layouts
+
+.left .section {
+	padding-bottom: 20px;
+	h1 {
+		font-size: 17px;
+		padding-bottom: 6px;
+		margin-bottom: 6px;
+		border-bottom: 1px solid $grey-100;
+	}
+}
+
+.left .info {
+	padding-bottom: 12px;
+	font-size: 12.3px;
+	h2 {
+		font-size: 12.3px;
+		padding-bottom: 6px;
+	}
+	ul {
+		list-style-type: none;
+		li {
+			padding-bottom: 6px;
+		}
+	}
+}
+
+.right .section {
+	margin-bottom: 10px;
+	border-bottom: 1px solid $grey-100;
+	h1 {
+		font-size: 13px;
+		font-weight: 500;
+		text-transform: capitalize;
+		position: relative;
+		margin-left: 8px;
+		&::before {
+			content: '';
+			position: absolute;
+			width: 2px;
+			height: 16px;
+			left: -8px;
+			top: -2px;
+			background-color: $black;
+		}
+	}
+	&.last {
+		border-bottom: none;
+	}
+}
+
+.right .info {
+	padding-top: 20px;
+	.inline {
+		h3 {
+			display: inline-block;
+		}
+	}
+	h2 {
+		font-size: 17.6px;
+	}
+	h3 {
+		font-size: 12.3px;
+		padding: 2px 0;
+		&.ml {
+			margin-left: 10px;
+		}
+		&.italic {
+			font-style: italic;
+		}
+	}
+	p {
+		margin-top: 10px;
+		font-size: 13px;
+		line-height: 1.5;
+		text-align: justify;
+	}
+	&.last {
+		padding-bottom: 20px;
+	}
 }

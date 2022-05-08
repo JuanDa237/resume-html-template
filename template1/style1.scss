@@ -67,15 +67,14 @@ a {
 }
 
 .left {
-	width: 655px;
+	flex-basis: 80%;
 	background: $white;
 	padding: 30px;
 }
 
 .right {
-	width: 160px;
-	min-width: 160px;
-	max-width: 160px;
+	flex-basis: 20%;
+	min-width: 20%;
 	background: $grey-200;
 	padding: 25px;
 }
