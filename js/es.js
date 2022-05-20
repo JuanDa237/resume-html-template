@@ -109,4 +109,4 @@ const es = {
 	}
 };
 
-const esPdfTitle = 'Juan Gaviria - Hoja De Vida';
+const esPdfTitle = 'Juan-Gaviria-Currículo';
