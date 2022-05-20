@@ -157,7 +157,7 @@ a {
 }
 
 .quote-container {
-	margin-top: 16px;
+	margin-top: 8px;
 	display: flex;
 	i {
 		width: 15%;
@@ -176,6 +176,13 @@ a {
 	padding-left: 50px;
 }
 
+.skills-list {
+	margin-top: 8px;
+	li {
+		margin-top: 0 !important;
+	}
+}
+
 // Timelines
 
 .timeline-section {
@@ -183,7 +190,6 @@ a {
 }
 
 .timeline {
-	margin-top: 16px;
 	margin-top: 16px;
 }
 

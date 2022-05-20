@@ -58,6 +58,13 @@ const es = {
 			7: 'Integración de API’s'
 		}
 	},
+	awards: {
+		title: 'Premios',
+		info: {
+			1: 'Lugar 34º (2022) entre 84 equipos de Colombia en el Concurso Internacional de Programación Universitaria (ICPC).',
+			2: 'Lugar 27º (2022) entre 60 equipos de Sudamérica Norte en el Concurso Internacional de Programación Universitaria (ICPC).'
+		}
+	},
 	contact: {
 		title: 'Información de contacto',
 		info: {

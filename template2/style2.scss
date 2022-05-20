@@ -181,6 +181,12 @@ a {
 		text-align: justify;
 	}
 	&.last {
-		margin-bottom: 15px;
+		margin-bottom: 20px;
 	}
+}
+
+// Helpers
+
+.m-0 {
+	margin: 0 !important;
 }

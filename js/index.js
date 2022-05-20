@@ -54,7 +54,11 @@ const ids = {
 	't-langs-1-title': 'langs.info.1.title',
 	't-langs-1-val': 'langs.info.1.value',
 	't-langs-2-title': 'langs.info.2.title',
-	't-langs-2-val': 'langs.info.2.value'
+	't-langs-2-val': 'langs.info.2.value',
+	// Awards
+	't-awards': 'awards.title',
+	't-awards-1': 'awards.info.1',
+	't-awards-2': 'awards.info.2'
 };
 
 var lang;

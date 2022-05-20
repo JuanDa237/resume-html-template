@@ -58,6 +58,13 @@ const en = {
 			7: 'API Integration'
 		}
 	},
+	awards: {
+		title: 'Awards',
+		info: {
+			1: '34th (2022) place out of 84 teams from Colombia in the International Collegiate Programming Contest (ICPC).',
+			2: '27th (2022) place out of 60 teams from South America North in the International Collegiate Programming Contest (ICPC).'
+		}
+	},
 	contact: {
 		title: 'Contact Information',
 		info: {
