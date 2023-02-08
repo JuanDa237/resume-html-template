@@ -1,22 +1,48 @@
 const es = {
 	header: {
 		name: 'Juan David Gaviria Correa',
-		title: 'Desarrollador Web',
-		description:
-			'Soy una persona autodidacta, siempre estoy buscando aprender nuevas habilidades, nuevas tecnologías, asumir responsabilidades adicionales y crecer profesionalmente.'
+		title: 'Desarrollador Web'
 	},
 	experience: {
 		title: 'experiencia',
 		info: {
 			1: {
-				title: 'Desarrollador Web Full Stack',
-				subtitle: 'Javier Propiedades',
-				description:
-					'Desarrolle el backend y frontend de esta aplicación web enfocada a la venta de propiedades, la puedes encontrar en',
-				description2:
-					"Para el desarrollo de esta aplicación se uso Angular 2+, Node.js, Express, MongoDB con integraciones de Bootstrap, API's de google, JWT, Amazon S3 buckets, entre otros",
+				title: 'Full Stack Freelance',
 				place: 'Medellín, Colombia',
-				date: 'Jun 2021 - 2022'
+				date: 'Ene 2021 - Actualmente',
+				list: {
+					1: {
+						place: 'Del Perrero:',
+						description:
+							'Diseñe y desarrolle un sistema POS que facilita la venta y administración de existencias, usando Angular 2+, Node.js, Express and MySql.'
+					},
+					2: {
+						place: 'Javier Propiedades:',
+						description:
+							'Permití ampliar la popularidad de la empresa, por medio del desarrollo y mantenimiento de una página web que permite publicar propiedades en venta y hacer Web Scraping de páginas de socios.'
+					},
+					3: {
+						place: 'EFY:',
+						description:
+							'Participe en el desarrollo de micro servicios con Nodejs, NestJs, React, entre otros. Además de ofrecer soporte a compañeros para la aplicación de administración.'
+					},
+					4: {
+						place: 'Ferbienes:',
+						description:
+							'Contribuí al desarrollo de un sistema WMS usando C#, el cual tiene miles de despachos, recibos y reasignaciones de mercancía diariamente.'
+					}
+				}
+			},
+			2: {
+				title: 'Junior Developer',
+				subtitle: 'Cloudworkz',
+				place: '(Virtual) Londres, Reino Unido',
+				date: 'Jun 2022 - Actualmente',
+				list: {
+					1: 'Contribuí al desarrollo de la aplicación empresarial para integrar procesos con NodeJs, NestJs, React y PostgreSQL.',
+					2: 'Automatice y optimice junto a mi equipo, la lógica de negocio para las ventas realizadas en el marketplace.',
+					3: 'Integración continua, despliegue continuo, test unitarios, test de integración, test de extremo a extremo.'
+				}
 			}
 		}
 	},
@@ -26,7 +52,8 @@ const es = {
 			1: {
 				title: 'Desarrollador Web',
 				subtitle: 'Misión TIC',
-				description: 'Más información acerca de este grado en',
+				description:
+					'Mision TIC es una estrategia del gobierno colombiano para tener más desarrolladores en el país, Más información acerca de este grado en',
 				place: 'Medellín, Colombia',
 				date: 'May 2021 - Dic 2021'
 			},
@@ -34,39 +61,44 @@ const es = {
 				title: 'Desarrollador De Software',
 				subtitle: 'Instituto Metropolitano De Medellin (ITM)',
 				description:
-					'Actualmente estoy cursando el quinto semestre, además pertenezco a el semillero de investigación de algoritmia y al de desarrollo de tecnologías de apoyo a la inclusión (TAI)',
+					'En 2021 participe y desarrolle un aplicativo en el semillero de investigación de desarrollo de tecnologías de apoyo a la inclusión (TAI), además, en 2022 lidere el semillero de investigación de algoritmia',
 				place: 'Medellín, Colombia',
-				date: 'Feb 2020 - Presente'
+				date: 'Feb 2020 - Presente',
+				gpa: 'Promedio (4.2/5)'
 			}
 		}
 	},
 	references: {
 		title: 'referencias',
 		info: {
-			1: 'Javier Vílchez, Vendedor de bienes raíces, Medellín. Tel: (+57) 322 5131372. Correo electrónico:'
+			1: 'Richard Aguirre, Inmel, Medellín. Tel: (+57) 300 8951736. Correo electrónico:',
+			2: 'Juan Londoño, Easy For You (EFY), Medellín. Tel: (+57) 310 4967619. Correo electrónico:'
 		}
 	},
 	skills: {
 		title: 'Habilidades',
 		info: {
-			1: 'Frontend: Html5, JavaScript, CSS, Angular 2+',
-			2: 'Backend: Node.js, ExpressJS, JWT, AWS S3',
-			3: 'Bases de datos: SQL, MySql, MongoDB',
+			1: 'Frontend: Html5, JavaScript, CSS, Angular 2+, React, SCSS, Bootstrap, Tailwind',
+			2: 'Backend: NodeJs, ExpressJS, NextJs, NestJs',
+			3: 'Bases de datos: MSSQL, MySql, PostgreSQL, MongoDB',
 			4: 'Versionamiento: Git, Github',
-			5: 'Diseño web reponsivo',
-			6: 'Typescript, C++',
-			7: 'Integración de API’s'
+			5: 'Testing: tests unitarios, de integracion y e2e, Jest, Supertest',
+			6: 'Diseño web reponsivo',
+			7: 'Typescript, C++, C#',
+			8: 'Integración de API’s',
+			9: 'CI/CD'
 		}
 	},
 	awards: {
 		title: 'Premios',
 		info: {
-			1: 'Lugar 34º (2022) entre 84 equipos de Colombia en el Concurso Internacional de Programación Universitaria (ICPC).',
-			2: 'Lugar 27º (2022) entre 60 equipos de Sudamérica Norte en el Concurso Internacional de Programación Universitaria (ICPC).'
+			1: 'Lugar 34º entre 84 equipos de Colombia en el Concurso Internacional de Programación Universitaria (ICPC). Marzo, 2022.',
+			2: 'Lugar 27º entre 60 equipos de Sudamérica Norte en el Concurso Internacional de Programación Universitaria (ICPC). Abril, 2022.',
+			3: 'Lugar 8º entre 104 equipos en la competencia de programacion competitiva RUTA N. Octubre, 2022.'
 		}
 	},
 	contact: {
-		title: 'Información de contacto',
+		title: 'Contacto',
 		info: {
 			1: {
 				title: 'Correo electrónico',
@@ -74,7 +106,7 @@ const es = {
 			},
 			2: {
 				title: 'Dirección',
-				value: 'Calle 105 #64 e 41'
+				value: 'Calle 105 #64 e 41, Medellin, Colombia.'
 			},
 			3: {
 				title: 'Telefono',
@@ -99,7 +131,7 @@ const es = {
 		info: {
 			1: {
 				title: 'Ingles',
-				value: 'Intermedio. Diplomado en Open English.'
+				value: 'Intermedio (B2). Diplomado en Open English.'
 			},
 			2: {
 				title: 'Español',

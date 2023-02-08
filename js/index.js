@@ -5,12 +5,24 @@ const ids = {
 	't-description': 'header.description',
 	// Experience
 	't-experience': 'experience.title',
+	't-ex-1-title': 'experience.info.1.title',
 	't-ex-1-place': 'experience.info.1.place',
 	't-ex-1-date': 'experience.info.1.date',
-	't-ex-1-title': 'experience.info.1.title',
-	't-ex-1-subtitle': 'experience.info.1.subtitle',
-	't-ex-1-description': 'experience.info.1.description',
-	't-ex-1-description2': 'experience.info.1.description2',
+	't-ex-1-list-1-place': 'experience.info.1.list.1.place',
+	't-ex-1-list-1-description': 'experience.info.1.list.1.description',
+	't-ex-1-list-2-place': 'experience.info.1.list.2.place',
+	't-ex-1-list-2-description': 'experience.info.1.list.2.description',
+	't-ex-1-list-3-place': 'experience.info.1.list.3.place',
+	't-ex-1-list-3-description': 'experience.info.1.list.3.description',
+	't-ex-1-list-4-place': 'experience.info.1.list.4.place',
+	't-ex-1-list-4-description': 'experience.info.1.list.4.description',
+	't-ex-2-title': 'experience.info.2.title',
+	't-ex-2-subtitle': 'experience.info.2.subtitle',
+	't-ex-2-place': 'experience.info.2.place',
+	't-ex-2-date': 'experience.info.2.date',
+	't-ex-2-list-1': 'experience.info.2.list.1',
+	't-ex-2-list-2': 'experience.info.2.list.2',
+	't-ex-2-list-3': 'experience.info.2.list.3',
 	// Education
 	't-education': 'education.title',
 	't-ed-1-place': 'education.info.1.place',
@@ -23,9 +35,11 @@ const ids = {
 	't-ed-2-title': 'education.info.2.title',
 	't-ed-2-subtitle': 'education.info.2.subtitle',
 	't-ed-2-description': 'education.info.2.description',
+	't-ed-2-gpa': 'education.info.2.gpa',
 	// References
 	't-references': 'references.title',
 	't-ref-1': 'references.info.1',
+	't-ref-2': 'references.info.2',
 	// Skills
 	't-skills': 'skills.title',
 	't-ski-1': 'skills.info.1',
@@ -35,6 +49,8 @@ const ids = {
 	't-ski-5': 'skills.info.5',
 	't-ski-6': 'skills.info.6',
 	't-ski-7': 'skills.info.7',
+	't-ski-8': 'skills.info.8',
+	't-ski-9': 'skills.info.9',
 	// Contact Info
 	't-contact': 'contact.title',
 	't-con-1-title': 'contact.info.1.title',
@@ -58,7 +74,8 @@ const ids = {
 	// Awards
 	't-awards': 'awards.title',
 	't-awards-1': 'awards.info.1',
-	't-awards-2': 'awards.info.2'
+	't-awards-2': 'awards.info.2',
+	't-awards-3': 'awards.info.3'
 };
 
 var lang;

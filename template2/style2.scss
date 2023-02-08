@@ -82,20 +82,24 @@ a {
 	width: 100%;
 	display: flex;
 	.right {
-		flex-basis: 60%;
+		flex-basis: 80%;
 		padding: 0 40px 0 0;
 	}
 	.left {
 		padding: 0 40px;
-		flex-basis: 40%;
+		flex-basis: 20%;
 	}
+}
+
+#page-2 > .container {
+	padding-top: 40px;
 }
 
 // Header
 
 #header {
 	text-align: center;
-	padding: 50px 40px 25px 40px;
+	padding: 40px 40px 25px 40px;
 	p {
 		width: 60%;
 		margin: 10px auto;
@@ -119,6 +123,14 @@ a {
 	padding-bottom: 16px;
 	h5 {
 		margin-bottom: 5px;
+		&.with-icon {
+			display: flex;
+			align-items: center;
+			svg {
+				max-width: 10px;
+				margin-right: 5px;
+			}
+		}
 	}
 	p {
 		@extend h5;
@@ -157,8 +169,7 @@ a {
 
 .right .info {
 	padding-top: 20px;
-	.title {
-	}
+
 	.subtitle {
 		@extend .muted;
 		padding: 2px 0;
@@ -175,10 +186,28 @@ a {
 		@extend .fw-normal;
 		font-style: italic;
 	}
+	.gpa {
+		@extend .muted;
+		padding: 2px 0;
+	}
 	p {
 		margin-top: 10px;
 		line-height: 1.5;
 		text-align: justify;
+	}
+	ul {
+		margin-top: 10px;
+		margin-left: 15px;
+		line-height: 1.5;
+		text-align: justify;
+		li {
+			font-size: 12.5px;
+			line-height: 1.5;
+			text-align: justify;
+			h5 {
+				display: inline-block;
+			}
+		}
 	}
 	&.last {
 		margin-bottom: 20px;
@@ -189,4 +218,20 @@ a {
 
 .m-0 {
 	margin: 0 !important;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-inline-block {
+	display: inline-block;
+}
+
+.g-1 {
+	gap: 1rem;
+}
+
+.ml-1 {
+	margin-left: 1rem;
 }
